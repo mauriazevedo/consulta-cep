@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar CEP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a064738991.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <form id="form">
+            <h1>Busca CEP</h1>
+            <div class="searchContainer">
+                <input type="text" placeholder="CEP" id="cep" maxlength="8">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </form>
+    
+        <div id="popup">
+            <button id="closeBtn" onclick="closePopUp()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
